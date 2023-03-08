@@ -1,4 +1,5 @@
 import ChooseUs from "@/components/Home/ChooseUs";
+import DisplayTime from "@/components/Home/DisplayTIme";
 import Doctors from "@/components/Home/Doctors";
 import Footer from "@/components/Home/Footer";
 import Gallery from "@/components/Home/Gallery";
@@ -13,6 +14,7 @@ export default function Home() {
      <Testimonial />
      <Gallery />
      <Map />
+     <DisplayTime />
      <Footer />
     </>
   )
