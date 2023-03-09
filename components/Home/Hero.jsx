@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="relative h-screen">
       <Image
-        src="https://plus.unsplash.com/premium_photo-1661768526823-8e7941279818?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+        src="https://images.unsplash.com/photo-1588776814546-daab30f310ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
         alt="Hero Image"
         layout="fill"
         objectFit="cover"

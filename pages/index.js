@@ -7,10 +7,13 @@ import Galleryy from "@/components/Home/Galleryy";
 import Map from "@/components/Home/Map";
 import Hero from "@/components/Home/Hero";
 import Testimonial from "@/components/Home/Testimonial";
+import Navbar from "@/components/Home/NavBar";
+import  Test from "@/components/Home/Test";
 
 export default function Home() {
   return (
     <>
+    <Navbar />
      <Hero />
     <Doctors />
 <ChooseUs />    
@@ -20,6 +23,7 @@ export default function Home() {
      <DisplayTime />
      <Footer />
      <Galleryy />
+   <Test />
     </>
   )
 }
