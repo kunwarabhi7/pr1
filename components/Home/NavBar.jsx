@@ -28,6 +28,15 @@ const Navbar = () => {
               <Link href="/contact">
                 <h1 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</h1>
               </Link>
+              <Link href="/contact">
+                <h1 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</h1>
+              </Link>
+              <Link href="/contact">
+                <h1 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</h1>
+              </Link>
+              <Link href="/contact">
+                <h1 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</h1>
+              </Link>
             </div>
           </div>
           <div className="-mr-2 flex md:hidden">
@@ -78,6 +87,15 @@ const Navbar = () => {
           </Link>
           <Link href="/contact">
             <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</h1>
+          </Link>
+          <Link href="/#">
+            <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">c1</h1>
+          </Link>
+          <Link href="/">
+            <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">c2</h1>
+          </Link>
+          <Link href="#">
+            <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">c3</h1>
           </Link>
        </div>
        </div>

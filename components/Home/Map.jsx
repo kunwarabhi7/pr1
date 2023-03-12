@@ -7,10 +7,10 @@ const Map = () => {
                 <iframe
                 className='w-full h-full'
                     title='map'
-                    frameborder="0"
+                    frameBorder="0"
                     scrolling="no"
-                    marginheight="0"
-                    marginwidth="0"
+                    marginHeight="0"
+                    marginWidth="0"
                     src="https://maps.google.com/maps?q=chandpur&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
             </div>
         </div>
