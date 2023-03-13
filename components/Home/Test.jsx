@@ -5,26 +5,26 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const testimonials = [
     {
-      name: 'John Smith',
-      title: 'CEO',
-      image: 'http://localhost:3000/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1489278353717-f64c6ee8a4d2%3Fixlib%3Drb-4.0.3%26ixid%3DMnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVudGlzdHxlbnwwfHwwfHw%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D500%26q%3D60&w=1080&q=75',
-      quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum hendrerit magna, vel interdum mauris convallis vitae.'
+      name: 'Pravishta Tomar',
+      title: 'Bhiwani',
+      image: 'https://profile.justdial.com/profileImg?i=htvMAqr%2FBBzT0iOnQdtu54Q%2FqZjqEuRUzPZn8TjsGA4%3D',
+      quote: 'This is the very good dental hospital. The way of work in hospitality is amazing. Neat n clean well maintained hospital.'
     },
     {
-      name: 'Jane Doe',
-      title: 'CTO',
-      image: 'https://thumbs.dreamstime.com/b/face-detection-recognition-man-computer-vision-machine-learning-concept-95793217.jpg',
-      quote: 'Praesent bibendum, mi a sagittis suscipit, elit enim consectetur mi, vel pharetra justo nunc sed velit.'
+      name: 'Sandeep',
+      title: 'Bhiwani',
+      image: 'https://profile.justdial.com/profileImg?i=%2BwuxqHRsA1bGxBEOpVIGBlDf2QqGhabVrfk8CUb1ozg%3D',
+      quote: 'Dr. Sanjay Tanwar is highly talented dentist and his orthodontics skills are highly reliable, he is very good in his job.'
     }, {
-        name: 'King',
-        title: 'CTO',
-        image: 'https://thumbs.dreamstime.com/b/face-detection-recognition-man-computer-vision-machine-learning-concept-95793217.jpg',
-        quote: 'Praesent bibendum, mi a sagittis suscipit, elit enim consectetur mi, vel pharetra justo nunc sed velit.'
+        name: 'Pawan Kumar Rai',
+        title: 'Tigrana',
+        image: 'https://profile.justdial.com/profileImg?i=YY29d9%2FPNTcxqMM73WeUK97nWqMyFT4vKVRSPJh3tL8%3D',
+        quote: 'Best dental Hospital in bhiwani.'
       }, {
-        name: 'Queen',
-        title: 'CTO',
+        name: 'Kirti',
+        title: 'Khrak',
         image: 'https://thumbs.dreamstime.com/b/face-detection-recognition-man-computer-vision-machine-learning-concept-95793217.jpg',
-        quote: 'Praesent bibendum, mi a sagittis suscipit, elit enim consectetur mi, vel pharetra justo nunc sed velit.'
+        quote: 'This is the best dental clinic.... Give it a try '
       } ]
 
      const Test = () =>{

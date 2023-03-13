@@ -5,7 +5,7 @@ const nextConfig = {
 
 module.exports = {
   images: {
-    domains: ['images.unsplash.com','plus.unsplash.com'],
+    domains: ['images.unsplash.com','plus.unsplash.com','content3.jdmagicbox.com','content.jdmagicbox.com'],
   },
 }
 

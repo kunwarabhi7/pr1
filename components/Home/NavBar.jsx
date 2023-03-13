@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-900">
+    <nav className="bg-[#012A4A]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -21,21 +21,22 @@ const Navbar = () => {
               <Link href="/">
                 <h1 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</h1>
               </Link>
-              <Link href="/about">
-                <h1 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</h1>
+              <Link href="#services">
+                <h1 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Services</h1>
               </Link>
               <Link href="#doctor">
                 <h1 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Doctor</h1>
               </Link>
-              <Link href="/contact">
-                <h1 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</h1>
+              <Link href="#time">
+                <h1 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Timing</h1>
               </Link>
-              <Link href="/contact">
-                <h1 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</h1>
+              <Link href="https://goo.gl/maps/CVbGHTm1nRSfs6eo8">
+                <h1 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Direction</h1>
               </Link>
-              <Link href="/contact">
-                <h1 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</h1>
+              <Link href="tel:9017842233">
+                <button className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Book an Appoinment</button>
               </Link>
+
             </div>
           </div>
           <div className="-mr-2 flex md:hidden">
@@ -81,21 +82,19 @@ const Navbar = () => {
           <Link href="/">
             <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</h1>
           </Link>
-          <Link href="/about">
-            <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</h1>
+          <Link href="#services">
+            <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Services</h1>
           </Link>
-          <Link href="/contact">
-            <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</h1>
+          <Link href="#doctor">
+            <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Doctor</h1>
           </Link>
-          <Link href="/#">
-            <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">c1</h1>
+          <Link href="https://goo.gl/maps/CVbGHTm1nRSfs6eo8">
+            <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Direction</h1>
           </Link>
-          <Link href="/">
-            <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">c2</h1>
-          </Link>
-          <Link href="#">
-            <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">c3</h1>
-          </Link>
+          <a href="tel:9017842233">
+            <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Book an Appoinment</h1>
+          </a>
+         
        </div>
        </div>
        </nav>
