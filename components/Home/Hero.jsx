@@ -1,26 +1,41 @@
 import Image from "next/image";
-
+import Dental from '../../public/dental.jpg'
 const Hero = () => {
   return (
-    <div className="relative h-screen">
-      <Image
-        src="https://images.unsplash.com/photo-1588776814546-daab30f310ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-        alt="Hero Image"
-        layout="fill"
-        objectFit="cover"
-      />
-      <div className="absolute inset-0 bg-black opacity-50"></div>
-      <div className="absolute inset-0 flex flex-col justify-center items-center">
-        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white text-center max-w-4xl">
-          Welcome to my website
-        </h1>
-        <p className="text-xl sm:text-2xl lg:text-3xl text-white mt-8 text-center max-w-2xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor
-          mauris euismod, hendrerit libero eu, pretium ex. Praesent ut
-          condimentum mi, ut dictum orci.
-        </p>
+    <section className="text-gray-600 body-font">
+  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 className="title-font text-center sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+        Welcome to 
+        <br className=" lg:inline-block" />
+        Shivam Dental Hospital
+      </h1>
+      <p className="mb-8 leading-relaxed">
+        Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
+        plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk
+        tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard
+        chambray.
+      </p>
+      <div className="flex justify-center">
+        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+          Button
+        </button>
+        <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+          Button
+        </button>
       </div>
     </div>
+    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <Image
+        className="object-cover object-center rounded-full"
+        alt="hero"
+        src={Dental}
+      />
+    </div>
+  </div>
+</section>
+
+
   );
 };
 

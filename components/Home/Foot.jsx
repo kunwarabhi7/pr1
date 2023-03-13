@@ -7,11 +7,11 @@ const Foot = () => {
         <div className="md:flex md:justify-between">
           <div className="md:w-1/3 mb-4 md:mb-0">
             <h3 className="text-lg font-bold mb-2">Contact Us</h3>
-            <p>123 Main St.</p>
-            <p>City, State ZIP</p>
-            <p>Phone: (123) 456-7890</p>
+            <p>Penchant Pocket</p>
+            <p>Opposite Bal Bhawan ,Bhiwani</p>
+            <p>Phone: (+91) 80598 42233 </p>
             <p>Email: info@yourdentalclinic.com</p>
-            <p>WhatsApp: +1 123-456-7890</p>
+            <p>WhatsApp: +91 9017842233</p>
           </div>
           <div className="md:w-1/3 mb-4 md:mb-0">
             <h3 className="text-lg font-bold mb-2">Links</h3>
@@ -41,12 +41,12 @@ const Foot = () => {
               <ul className='flex flex-col space-y-2'>
                 <li >
                    
-                   <a href="#">
+                   <a href="https://www.facebook.com/sssdh2233/">
                     <BsFacebook size={30}/>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://goo.gl/maps/aKZUFs4PFLdsnTMy6">
                   <BsInstagram size={30}/>
                   </a>
                 </li>

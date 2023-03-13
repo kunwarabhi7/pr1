@@ -10,6 +10,7 @@ import Testimonial from "@/components/Home/Testimonial";
 import Navbar from "@/components/Home/NavBar";
 import  Test from "@/components/Home/Test";
 import Foot from "@/components/Home/Foot";
+import Services from "@/components/Home/Services";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
      <Galleryy />
    <Test />
    <Foot />
+   <Services />
     </>
   )
 }
