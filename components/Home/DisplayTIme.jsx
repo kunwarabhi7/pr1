@@ -1,7 +1,7 @@
 import OpeningClosingTime from './OpeningClosingTime'
 const DisplayTime = () => {
     return (
-        <div id='time' className="p-4 max-w-screen-lg mx-auto">
+        <div id='time' className="p-4 max-w-screen-lg mx-auto bg-[#012A4A] my-8 text-white">
         <div className="text-3xl font-bold mb-8">Opening and Closing Times</div>
         <OpeningClosingTime day="Monday" openTime="9:00 AM" closeTime="9:00 PM" />
         <OpeningClosingTime day="Tuesday" openTime="9:00 AM" closeTime="9:00 PM" />

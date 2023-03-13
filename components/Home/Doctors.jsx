@@ -11,7 +11,7 @@ const Doctors = () => {
 
                 <div className='flex flex-col items-center shadow-[0px_0px_4px_2px_rgba(0,0,0,0.1)] h-[352px]'>
                     <div className='bg-white w-[111px] h-[111px] rotate-[45deg] rounded-[25px] flex items-center justify-center border-[2px] border-primary mt-[65px] overflow-hidden'>
-                        <img className='-rotate-[45deg] w-full h-full scale-125' src="/img/doctors/smiling-handsome-young-black-male-doctor-medicine-concept 1.png" alt="corona" />
+                        <img className='-rotate-[45deg] w-full h-full scale-125' src="https://content.jdmagicbox.com/comp/bhiwani/a7/9999p1664.1664.190629171546.s4a7/catalogue/shivam-super-speciality-dental-hospital-bhiwani-city-bhiwani-dental-hospitals-bfnbyi846c-250.jpg" alt="corona" />
                     </div>
                     <h3 className='text-center text-[24px] mt-5 font-bold'>Dr. Sanjay Tanwar</h3>
 

@@ -8,17 +8,21 @@ import Navbar from "@/components/Home/NavBar";
 import  Test from "@/components/Home/Test";
 import Foot from "@/components/Home/Foot";
 import Services from "@/components/Home/Services";
+import Ser from "@/components/Home/Ser";
 
 export default function Home() {
   return (
     <>
     <Navbar />
      <Hero />
-   <Services />
+   <Ser />
     <Doctors />
 
 <ChooseUs />    
+
+
      <Map />
+     <h1 className='text-center text-5xl font-bold text-[#012A4A] pb-14 pt-28'>Review of some of our clients:</h1>
    <Test />
      <DisplayTime />
    <Foot />

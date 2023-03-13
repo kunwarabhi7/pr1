@@ -2,7 +2,7 @@ import Link from 'next/link'
 import {BsFacebook , BsYoutube , BsInstagram} from 'react-icons/bs'
 const Foot = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300 px-4 py-6 md:px-12">
+    <footer className="bg-[#012A4A]  text-gray-300 px-4 py-6 md:px-12">
       <div className="max-w-6xl mx-auto">
         <div className="md:flex md:justify-evenly">
           <div className="md:w-1/3 mb-4 md:mb-0">

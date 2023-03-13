@@ -4,6 +4,7 @@ const Map = () => {
   return (
     <div className="bg-[#FBFAFF] h-[411px] flex items-center justify-center">
       <div className="h-[280px] lg:w-7/12 mx-auto lg:px-0 px-2 bg-white">
+
         <iframe
           className="w-full h-full"
           title="map"

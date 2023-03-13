@@ -11,7 +11,7 @@ const Hero = () => {
         Shivam Dental Hospital
       </h1>
       <p className="mb-8 text-3xl  md:text-6xl md:my-4 text-centre leading-relaxed">
-      10 सालो से आपकी सेवा में 
+      10 साल से आपकी सेवा में 
       </p>
       <div className="flex justify-center md:my-8 md:ml-16 ">
         <button className="inline-flex text-white bg-[#012A4A]  border-0 py-2 px-6 focus:outline-none hover:bg-blue-900 rounded text-lg">
