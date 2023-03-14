@@ -55,8 +55,8 @@ const testimonials = [
 >
 
   {testimonials.map((testimonial) => (
-    <div key={testimonial.name} className="px-4 ">
-      <div className="bg-white rounded-lg shadow-lg p-4">
+    <div key={testimonial.name} className="px-4  ">
+      <div className="bg-white rounded-lg shadow-lg p-4 h-72">
         <div className="text-center">
           <img
             src={testimonial.image}
