@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Dental from '../../public/dental.jpg'
+import Dental from '../../public/DP.jpeg'
 const Hero = () => {
   return (
     <section className="text-gray-600 body-font">
@@ -22,9 +22,9 @@ const Hero = () => {
         </button>
       </div>
     </div>
-    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+    <div className="lg:max-w-lg lg:w-full mx-auto md:w-1/2 w-5/6">
       <Image
-        className="object-cover object-center rounded-full"
+        className="object-cover object-center w-72 h-72 md:w-96 md:h-96 ml-16 md:ml-0 rounded-full"
         alt="hero"
         src={Dental}
       />

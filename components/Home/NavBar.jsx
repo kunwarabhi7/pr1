@@ -30,6 +30,9 @@ const Navbar = () => {
               <Link href="#time">
                 <h1 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Timing</h1>
               </Link>
+              <Link href="/gallery">
+                <h1 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Gallery</h1>
+              </Link>
               <Link href="https://goo.gl/maps/CVbGHTm1nRSfs6eo8">
                 <h1 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Direction</h1>
               </Link>
@@ -87,6 +90,9 @@ const Navbar = () => {
           </Link>
           <Link href="#doctor">
             <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Doctor</h1>
+          </Link>
+          <Link href="/gallery">
+            <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Gallery</h1>
           </Link>
           <Link href="https://goo.gl/maps/CVbGHTm1nRSfs6eo8">
             <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Direction</h1>
