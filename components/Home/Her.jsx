@@ -6,8 +6,8 @@ import Dental from '../../public/dp.jpeg'
 const Her = () => {
   return (
     <section className="text-black body-font h-screen">
-  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center xl:ml-48">
-  <div className="lg:max-w-lg lg:w-full ml-24 md:ml-0 mx-auto md:w-1/2 w-5/6">
+  <div className="container mx-auto flex px-5 md:py-24 py-4 md:flex-row flex-col items-center ">
+  <div className="lg:max-w-lg lg:w-full ml-24 md:ml-0 mx-auto md:w-1/2 w-5/6 xl:ml-24">
       <Image
         className="object-cover object-center w-72 h-72 md:w-96 md:h-96   md:ml-0 rounded-full"
         alt="hero"
