@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { FaInstagram, FaFacebookF, FaTwitter } from 'react-icons/fa';
-import Dental from '../../public/DP.jpeg'
+import Dental from '../../public/dp.jpeg'
 
 const Doctors = () => {
 
