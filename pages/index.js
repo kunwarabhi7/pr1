@@ -8,12 +8,13 @@ import Navbar from "@/components/Home/NavBar";
 import  Test from "@/components/Home/Test";
 import Foot from "@/components/Home/Foot";
 import Ser from "@/components/Home/Ser";
+import Her from "@/components/Home/Her";
 
 export default function Home() {
   return (
-    <>
+    <div>
     <Navbar />
-    
+    <Her />
      <Hero />
    <Ser />
     <Doctors />
@@ -25,6 +26,6 @@ export default function Home() {
    <Test />
      <DisplayTime />
    <Foot />
-    </>
+    </div>
   )
 }
