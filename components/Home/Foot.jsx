@@ -16,22 +16,22 @@ const Foot = () => {
             <p>WhatsApp: +91 9017842233</p>
           </div>
           <div className="md:w-1/3 mb-4 md:mb-0">
-            <h3 className="text-lg font-bold mb-2">Links</h3>
+            <h3 className="text-lg font-bold mb-2">Our Other Branches</h3>
             <nav>
               <ul className='flex flex-col space-y-1 md:space-y-4'>
                 <li>
                   <Link href="/about">
-                    <h1>About Us</h1>
+                    <h1>Main Branch Bhiwani</h1>
                   </Link>
                 </li>
                 <li>
                   <Link href="/services">
-                    <h1>Our Services</h1>
+                    <h1>Rohtak Gate Branch</h1>
                   </Link>
                 </li>
                 <li>
                   <Link href="/contact">
-                    <h1>Contact Us</h1>
+                    <h1>Badhra Branch</h1>
                   </Link>
                 </li>
               </ul>
