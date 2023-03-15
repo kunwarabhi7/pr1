@@ -44,17 +44,17 @@ const Foot = () => {
                 <li >
                    
                    <a href="https://www.facebook.com/sssdh2233/">
-                    <BsFacebook size={30}/>
+                    <BsFacebook className=' text-white' size={30}/>
                   </a>
                 </li>
                 <li>
                   <a href="https://goo.gl/maps/aKZUFs4PFLdsnTMy6">
-                  <BsInstagram size={30}/>
+                  <BsInstagram className=' text-[#e95950]' size={30}/>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                  <BsTwitter size={30}/>
+                  <a href="https://www.twitter.com/drSSRajput6">
+                  <BsTwitter className='text-blue-500' size={30}/>
                   </a>
                 </li>
               </ul>
@@ -66,7 +66,7 @@ const Foot = () => {
               <ul className='flex flex-col space-y-2'>
                 <li >
                    
-                   <a href="https://www.facebook.com/sssdh2233/">
+                   <a href="tel:9017842233">
                     <ImMobile size={30}/>
                   </a>
                 </li>
