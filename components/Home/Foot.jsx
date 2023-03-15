@@ -1,5 +1,7 @@
 import Link from 'next/link'
-import {BsFacebook , BsYoutube , BsInstagram} from 'react-icons/bs'
+import {BsFacebook , BsYoutube , BsInstagram , BsTwitter , BsWhatsapp} from 'react-icons/bs'
+import {ImMobile} from 'react-icons/im'
+import {SiGmail} from 'react-icons/si'
 const Foot = () => {
   return (
     <footer className="bg-[#012A4A]  text-gray-300 px-4 py-6 md:px-12">
@@ -10,7 +12,7 @@ const Foot = () => {
             <p>Penchant Pocket</p>
             <p>Opposite Bal Bhawan ,Bhiwani</p>
             <p>Phone: (+91) 80598 42233 </p>
-            <p>Email: info@yourdentalclinic.com</p>
+            <p>Email: war.tan@yahoo.co.in</p>
             <p>WhatsApp: +91 9017842233</p>
           </div>
           <div className="md:w-1/3 mb-4 md:mb-0">
@@ -52,7 +54,30 @@ const Foot = () => {
                 </li>
                 <li>
                   <a href="#">
-                  <BsYoutube size={30}/>
+                  <BsTwitter size={30}/>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div className="md:w-1/3">
+            <h3 className="text-lg font-bold mb-2">Get in Touch</h3>
+            <nav>
+              <ul className='flex flex-col space-y-2'>
+                <li >
+                   
+                   <a href="https://www.facebook.com/sssdh2233/">
+                    <ImMobile size={30}/>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://api.whatsapp.com/send?phone=918059842233&text=Hello this is the starting message">
+                  <BsWhatsapp className='text-green-500' size={30}/>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:war.tan@yahoo.co.in">
+                  <SiGmail className='text-red-500' size={30}/>
                   </a>
                 </li>
               </ul>

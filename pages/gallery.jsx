@@ -16,7 +16,7 @@ const Certi = () => {
   return (
     <div className="h-screen">
     <Navbar />
-    <div className="mx-4 bg-[rgb(227,230,230)] relative">
+    <div className="mx-4  bg-[rgb(227,230,230)] relative">
          <Carousel autoPlay infiniteLoop showStatus={false} showIndicators={false} showThumbs={false}>
                 <div>
                     <Image loading="lazy" className="h-80 md:h-screen" src={PR1} />

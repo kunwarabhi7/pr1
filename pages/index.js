@@ -17,7 +17,6 @@ export default function Home() {
      <Hero />
    <Ser />
     <Doctors />
-
 <ChooseUs />    
 
 
