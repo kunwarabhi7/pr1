@@ -30,7 +30,7 @@ const Navbar = () => {
               <Link href="#time">
                 <h1 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Timing</h1>
               </Link>
-              <Link href="/gallery">
+              <Link href="#gallery">
                 <h1 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Gallery</h1>
               </Link>
               <Link href="https://goo.gl/maps/CVbGHTm1nRSfs6eo8">
@@ -83,22 +83,22 @@ const Navbar = () => {
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`}>
         <div className="px-2 pt-2 pb-3 sm:px-3">
           <Link href="/">
-            <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</h1>
+            <h1 onClick={toggleNavbar} className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</h1>
           </Link>
           <Link href="#services">
-            <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Services</h1>
+            <h1 onClick={toggleNavbar} className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Services</h1>
           </Link>
           <Link href="#doctor">
-            <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Doctor</h1>
+            <h1 onClick={toggleNavbar} className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Doctor</h1>
           </Link>
-          <Link href="/gallery">
-            <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Gallery</h1>
+          <Link href="#gallery">
+            <h1 onClick={toggleNavbar} className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Gallery</h1>
           </Link>
           <Link href="https://goo.gl/maps/CVbGHTm1nRSfs6eo8">
-            <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Direction</h1>
+            <h1  onClick={toggleNavbar} className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Direction</h1>
           </Link>
           <a href="tel:9017842233">
-            <h1 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Book an Appoinment</h1>
+            <h1 onClick={toggleNavbar} className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Book an Appoinment</h1>
           </a>
          
        </div>

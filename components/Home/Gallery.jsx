@@ -10,8 +10,7 @@ import PR3 from '../../public/pr3.jpeg'
 import PR4 from '../../public/pr4.jpeg'
 import PR6 from '../../public/pr6.jpeg'
 import Image from "next/image";
-import Navbar from "@/components/Home/NavBar";
-import Foot from "@/components/Home/Foot";
+
 
 
 const Certi = () => {
