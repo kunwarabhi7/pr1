@@ -22,17 +22,22 @@ const Her = () => {
         Shivam Dental Hospital
       </span>
       </h1>
-      <p className="mb-8 leading-relaxed xl:text-4xl my-4">
+      <p className="mb-8 text-gray-700  leading-relaxed xl:text-4xl my-4">
       10 साल से आपकी सेवा में
 
       </p>
       <div className="flex justify-center">
+      <Link href="tel:9017842233">
         <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
           Book an Appoinment
         </button>
+        </Link>
+        <Link href="https://goo.gl/maps/CVbGHTm1nRSfs6eo8">
+
         <button className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
           Visit US!
         </button>
+        </Link>
       </div>
     </div>
   </div>

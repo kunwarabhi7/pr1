@@ -22,7 +22,7 @@ const ChooseUs = () => {
                     <div>
                         <h3 className='text-[40px] font-bold text-secondary text-yellow-400'>10+</h3>
                         <p className='text-white text-2xl'>Long Years</p>
-                        <span className='text-[#B5B5B5] block mt-[17px]'>10+ years pf excellent services</span>
+                        <span className='text-[#B5B5B5] block mt-[17px]'>10+ years of excellent services</span>
                     </div>
                     <div>
                         <h3 className='text-[40px] font-bold text-secondary text-yellow-400'>3</h3>
