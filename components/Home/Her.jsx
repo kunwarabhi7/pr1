@@ -5,7 +5,7 @@ import Dental from '../../public/dp.jpeg'
 
 const Her = () => {
   return (
-    <section className="text-black body-font">
+    <section className="text-black body-font h-screen">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center xl:ml-48">
   <div className="lg:max-w-lg lg:w-full ml-24 md:ml-0 mx-auto md:w-1/2 w-5/6">
       <Image
