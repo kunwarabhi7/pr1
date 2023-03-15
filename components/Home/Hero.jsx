@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Dental from '../../public/DP.jpeg'
+import Dental from '../../public/dp.jpeg'
 const Hero = () => {
   return (
     <section className="text-gray-600 body-font">
