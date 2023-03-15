@@ -15,7 +15,7 @@ export default function Home() {
     <div>
     <Navbar />
     <Her />
-     <Hero />
+     {/* <Hero /> */}
    <Ser />
     <Doctors />
 <ChooseUs />    

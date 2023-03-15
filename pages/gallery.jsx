@@ -8,15 +8,14 @@ import PR5 from '../public/pr5.jpeg'
 import PR6 from '../public/pr6.jpeg'
 import Image from "next/image";
 import Navbar from "@/components/Home/NavBar";
-import Footer from "@/components/Home/Footer";
 import Foot from "@/components/Home/Foot";
 
 
 const Certi = () => {
   return (
-    <div className="h-screen">
+    <div className="h-screen ">
     <Navbar />
-    <div className="mx-4  bg-[rgb(227,230,230)] relative">
+    <div className="xl:m-32 xl:my-4  bg-[rgb(227,230,230)] relative  shadow-lg">
          <Carousel autoPlay infiniteLoop showStatus={false} showIndicators={false} showThumbs={false}>
                 <div>
                     <Image loading="lazy" className="h-80 md:h-screen" src={PR1} />
