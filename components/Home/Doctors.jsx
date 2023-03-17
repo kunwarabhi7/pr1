@@ -33,9 +33,12 @@ const Doctors = () => {
           </p>
 
           <div className="flex items-center justify-center gap-4 mt-5">
+          <a href="https://www.twitter.com/drSSRajput6">
+
             <span className="w-9 h-9 cursor-pointer text-lg duration-200 hover:text-[#00acee] hover:border-[#00acee] bg-white rounded-full border border-black flex items-center justify-center">
               <FaTwitter />
             </span>
+            </a>
             <a href="https://www.facebook.com/sssdh2233/">
             <span className="w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#4267B2] hover:border-[#4267B2] duration-200 rounded-full border border-black flex items-center justify-center">
               <FaFacebookF />
@@ -69,9 +72,12 @@ const Doctors = () => {
           <p className="text-[#A8A8A8] text-[15px] mt-1">BAMS , MD </p>
 
           <div className="flex items-center justify-center gap-4 mt-5">
+          <a href="https://www.twitter.com/drSSRajput6">
+
             <span className="w-9 h-9 cursor-pointer text-lg duration-200 hover:text-[#00acee] hover:border-[#00acee] bg-white rounded-full border border-black flex items-center justify-center">
               <FaTwitter />
             </span>
+            </a>
             <a href="https://www.facebook.com/sssdh2233/">
             <span className="w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#4267B2] hover:border-[#4267B2] duration-200 rounded-full border border-black flex items-center justify-center">
               <FaFacebookF />
@@ -105,9 +111,12 @@ const Doctors = () => {
           <p className="text-[#A8A8A8] text-[15px] mt-1">BDS , MIDA</p>
 
           <div className="flex items-center justify-center gap-4 mt-5">
+          <a href="https://www.twitter.com/drSSRajput6">
+
             <span className="w-9 h-9 cursor-pointer text-lg duration-200 hover:text-[#00acee] hover:border-[#00acee] bg-white rounded-full border border-black flex items-center justify-center">
               <FaTwitter />
             </span>
+            </a>
             <a href="https://www.facebook.com/sssdh2233/">
             <span className="w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#4267B2] hover:border-[#4267B2] duration-200 rounded-full border border-black flex items-center justify-center">
               <FaFacebookF />
@@ -143,9 +152,12 @@ const Doctors = () => {
           </p>
 
           <div className="flex items-center justify-center gap-4 mt-5">
+          <a href="https://www.twitter.com/drSSRajput6">
+
             <span className="w-9 h-9 cursor-pointer text-lg duration-200 hover:text-[#00acee] hover:border-[#00acee] bg-white rounded-full border border-black flex items-center justify-center">
               <FaTwitter />
             </span>
+            </a>
             <a href="https://www.facebook.com/sssdh2233/">
             <span className="w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#4267B2] hover:border-[#4267B2] duration-200 rounded-full border border-black flex items-center justify-center">
               <FaFacebookF />
@@ -179,9 +191,12 @@ const Doctors = () => {
           <p className="text-[#A8A8A8] text-[15px] mt-1">MDS(Oral Surgery)</p>
 
           <div className="flex items-center justify-center gap-4 mt-5">
+          <a href="https://www.twitter.com/drSSRajput6">
+
             <span className="w-9 h-9 cursor-pointer text-lg duration-200 hover:text-[#00acee] hover:border-[#00acee] bg-white rounded-full border border-black flex items-center justify-center">
               <FaTwitter />
             </span>
+            </a>
             <a href="https://www.facebook.com/sssdh2233/">
             <span className="w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#4267B2] hover:border-[#4267B2] duration-200 rounded-full border border-black flex items-center justify-center">
               <FaFacebookF />
@@ -215,9 +230,12 @@ const Doctors = () => {
           <p className="text-[#A8A8A8] text-[15px] mt-1">MDS</p>
 
           <div className="flex items-center justify-center gap-4 mt-5">
+          <a href="https://www.twitter.com/drSSRajput6">
+
             <span className="w-9 h-9 cursor-pointer text-lg duration-200 hover:text-[#00acee] hover:border-[#00acee] bg-white rounded-full border border-black flex items-center justify-center">
               <FaTwitter />
             </span>
+            </a>
             <a href="https://www.facebook.com/sssdh2233/">
             <span className="w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#4267B2] hover:border-[#4267B2] duration-200 rounded-full border border-black flex items-center justify-center">
               <FaFacebookF />
