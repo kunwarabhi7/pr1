@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import { FaInstagram, FaFacebookF, FaTwitter } from 'react-icons/fa';
 import Dental from '../../public/dp.jpeg'
-
+import GS from '../../public/gs.jpeg'
 const Doctors = () => {
 
     return (
@@ -59,7 +59,7 @@ const Doctors = () => {
 
                 <div className='flex flex-col items-center shadow-[0px_0px_4px_2px_rgba(0,0,0,0.1)] h-[352px]'>
                     <div className='bg-white w-[111px] h-[111px] rotate-[45deg] rounded-[25px] flex items-center justify-center border-[2px] border-primary mt-[65px] overflow-hidden'>
-                        <img className='-rotate-[45deg] w-full h-full scale-125' src="/img/doctors/young-beautiful-successful-female-doctor-with-stethoscope-portrait 1.png" alt="corona" />
+                        <Image className='-rotate-[45deg] w-full h-full scale-125' src={GS} alt="corona" />
                     </div>
                     <h3 className='text-center text-[24px] mt-5 font-bold'>Dr. Garima Sangwan</h3>
 

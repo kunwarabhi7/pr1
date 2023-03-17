@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="#section1">
-              <h1 className="text-white font-bold text-xl">Shivam Dental Clinic</h1>
+              <h1 className="text-white font-bold text-xl uppercase" >Shivam Dental </h1>
             </Link>
           </div>
           <div className="hidden md:block">
