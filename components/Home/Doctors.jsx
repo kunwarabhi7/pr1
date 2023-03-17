@@ -1,8 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
 import { FaInstagram, FaFacebookF, FaTwitter } from 'react-icons/fa';
+import {BsTelephoneFill} from 'react-icons/bs'
 import Dental from '../../public/dp.jpeg'
 import GS from '../../public/gs.jpeg'
+import Link from 'next/link';
 const Doctors = () => {
 
     return (
@@ -23,6 +25,9 @@ const Doctors = () => {
                         <span className='w-9 h-9 cursor-pointer text-lg duration-200 hover:text-[#00acee] hover:border-[#00acee] bg-white rounded-full border border-black flex items-center justify-center'><FaTwitter /></span>
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#4267B2] hover:border-[#4267B2] duration-200 rounded-full border border-black flex items-center justify-center'><FaFacebookF /></span>
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#F77737] hover:border-[#F77737] duration-200 rounded-full border border-black flex items-center justify-center'><FaInstagram /></span>
+                        <Link href="tel:9017842233">
+                        <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#57cf71] hover:border-[#57cf71] duration-200 rounded-full border border-black flex items-center justify-center'><BsTelephoneFill /></span>
+                    </Link>
                     </div>
                 </div>
 
@@ -39,6 +44,9 @@ const Doctors = () => {
                         <span className='w-9 h-9 cursor-pointer text-lg duration-200 hover:text-[#00acee] hover:border-[#00acee] bg-white rounded-full border border-black flex items-center justify-center'><FaTwitter /></span>
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#4267B2] hover:border-[#4267B2] duration-200 rounded-full border border-black flex items-center justify-center'><FaFacebookF /></span>
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#F77737] hover:border-[#F77737] duration-200 rounded-full border border-black flex items-center justify-center'><FaInstagram /></span>
+                        <Link href="tel:9017842233">
+                        <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#57cf71] hover:border-[#57cf71] duration-200 rounded-full border border-black flex items-center justify-center'><BsTelephoneFill /></span>
+                    </Link>
                     </div>
                 </div>
 
@@ -54,7 +62,9 @@ const Doctors = () => {
                         <span className='w-9 h-9 cursor-pointer text-lg duration-200 hover:text-[#00acee] hover:border-[#00acee] bg-white rounded-full border border-black flex items-center justify-center'><FaTwitter /></span>
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#4267B2] hover:border-[#4267B2] duration-200 rounded-full border border-black flex items-center justify-center'><FaFacebookF /></span>
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#F77737] hover:border-[#F77737] duration-200 rounded-full border border-black flex items-center justify-center'><FaInstagram /></span>
-                    </div>
+                        <Link href="tel:9017842233">
+                        <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#57cf71] hover:border-[#57cf71] duration-200 rounded-full border border-black flex items-center justify-center'><BsTelephoneFill /></span>
+                    </Link>  </div>
                 </div>
 
                 <div className='flex flex-col items-center shadow-[0px_0px_4px_2px_rgba(0,0,0,0.1)] h-[352px]'>
@@ -69,7 +79,9 @@ const Doctors = () => {
                         <span className='w-9 h-9 cursor-pointer text-lg duration-200 hover:text-[#00acee] hover:border-[#00acee] bg-white rounded-full border border-black flex items-center justify-center'><FaTwitter /></span>
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#4267B2] hover:border-[#4267B2] duration-200 rounded-full border border-black flex items-center justify-center'><FaFacebookF /></span>
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#F77737] hover:border-[#F77737] duration-200 rounded-full border border-black flex items-center justify-center'><FaInstagram /></span>
-                    </div>
+                        <Link href="tel:9017842233">
+                        <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#57cf71] hover:border-[#57cf71] duration-200 rounded-full border border-black flex items-center justify-center'><BsTelephoneFill /></span>
+                    </Link> </div>
                 </div>
 
                 <div className='flex flex-col items-center shadow-[0px_0px_4px_2px_rgba(0,0,0,0.1)] h-[352px]'>
@@ -84,7 +96,9 @@ const Doctors = () => {
                         <span className='w-9 h-9 cursor-pointer text-lg duration-200 hover:text-[#00acee] hover:border-[#00acee] bg-white rounded-full border border-black flex items-center justify-center'><FaTwitter /></span>
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#4267B2] hover:border-[#4267B2] duration-200 rounded-full border border-black flex items-center justify-center'><FaFacebookF /></span>
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#F77737] hover:border-[#F77737] duration-200 rounded-full border border-black flex items-center justify-center'><FaInstagram /></span>
-                    </div>
+                        <Link href="tel:9017842233">
+                        <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#57cf71] hover:border-[#57cf71] duration-200 rounded-full border border-black flex items-center justify-center'><BsTelephoneFill /></span>
+                    </Link> </div>
                 </div>
 
                 <div className='flex flex-col items-center shadow-[0px_0px_4px_2px_rgba(0,0,0,0.1)] h-[352px]'>
@@ -99,7 +113,9 @@ const Doctors = () => {
                         <span className='w-9 h-9 cursor-pointer text-lg duration-200 hover:text-[#00acee] hover:border-[#00acee] bg-white rounded-full border border-black flex items-center justify-center'><FaTwitter /></span>
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#4267B2] hover:border-[#4267B2] duration-200 rounded-full border border-black flex items-center justify-center'><FaFacebookF /></span>
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#F77737] hover:border-[#F77737] duration-200 rounded-full border border-black flex items-center justify-center'><FaInstagram /></span>
-                    </div>
+                        <Link href="tel:7082932230">
+                        <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#57cf71] hover:border-[#57cf71] duration-200 rounded-full border border-black flex items-center justify-center'><BsTelephoneFill /></span>
+                    </Link> </div>
                 </div>
 
             </div>
