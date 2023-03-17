@@ -48,7 +48,7 @@ const Foot = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://goo.gl/maps/aKZUFs4PFLdsnTMy6">
+                  <a href="https://www.instagram.com/shivam_dental_hospital/">
                   <BsInstagram className=' text-[#e95950]' size={30}/>
                   </a>
                 </li>
