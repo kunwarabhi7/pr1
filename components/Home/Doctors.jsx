@@ -18,9 +18,9 @@ const Doctors = () => {
         className="carousel-item w-full grid lg:grid-cols-3 grid-cols-1 gap-8 lg:gap-x-[30px] lg:gap-y-[65px]"
       >
         <div className="flex flex-col items-center shadow-[0px_0px_4px_2px_rgba(0,0,0,0.1)] h-[352px]">
-          <div className="bg-white w-[111px] h-[111px] rotate-[45deg] rounded-[25px] flex items-center justify-center border-[2px] border-primary mt-[65px] overflow-hidden">
+          <div className="bg-white transition ease-in-out delay-150 hover:-translate-y-1 duration-300 cursor-pointer hover:scale-150 w-[111px] h-[111px] rotate-[45deg] rounded-[25px] flex items-center justify-center border-[2px] border-primary mt-[65px] overflow-hidden">
             <Image
-              className="-rotate-[45deg] w-full h-full scale-125"
+              className="-rotate-[45deg]  object-cover w-full h-full scale-125"
               src={Dental}
               alt="corona"
             />
@@ -98,9 +98,9 @@ const Doctors = () => {
         </div>
 
         <div className="flex flex-col items-center shadow-[0px_0px_4px_2px_rgba(0,0,0,0.1)] h-[352px]">
-          <div className="bg-white w-[111px] h-[111px] rotate-[45deg] rounded-[25px] flex items-center justify-center border-[2px] border-primary mt-[65px] overflow-hidden">
+          <div className="bg-white transition ease-in-out delay-150 hover:-translate-y-1 duration-300 cursor-pointer hover:scale-150 w-[111px] h-[111px] rotate-[45deg] rounded-[25px] flex items-center justify-center border-[2px] border-primary mt-[65px] overflow-hidden">
             <Image
-              className="-rotate-[45deg] w-full h-full scale-125"
+              className="-rotate-[45deg] object-cover w-full h-full scale-125"
               src={KS}
               alt="corona"
             />
@@ -137,9 +137,9 @@ const Doctors = () => {
         </div>
 
         <div className="flex flex-col items-center shadow-[0px_0px_4px_2px_rgba(0,0,0,0.1)] h-[352px]">
-          <div className="bg-white w-[111px] h-[111px] rotate-[45deg] rounded-[25px] flex items-center justify-center border-[2px] border-primary mt-[65px] overflow-hidden">
+          <div className="bg-white transition ease-in-out delay-150 hover:-translate-y-1 duration-300 cursor-pointer hover:scale-150 w-[111px] h-[111px] rotate-[45deg] rounded-[25px] flex items-center justify-center border-[2px] border-primary mt-[65px] overflow-hidden">
             <Image
-              className="-rotate-[45deg] w-full h-full scale-125"
+              className="-rotate-[45deg] object-cover w-full h-full scale-125"
               src={GS}
               alt="corona"
             />
@@ -152,7 +152,7 @@ const Doctors = () => {
             RCT Expert & Cosmetics Surgeon
           </p>
 
-          <div className="flex items-center justify-center gap-4 mt-5">
+          <div className="flex items-center justify-center  gap-4 mt-5">
           <a href="https://www.twitter.com/drSSRajput6">
 
             <span className="w-9 h-9 cursor-pointer text-lg duration-200 hover:text-[#00acee] hover:border-[#00acee] bg-white rounded-full border border-black flex items-center justify-center">
