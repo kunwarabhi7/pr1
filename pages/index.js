@@ -9,12 +9,14 @@ import  Test from "@/components/Home/Test";
 import Foot from "@/components/Home/Foot";
 import Ser from "@/components/Home/Ser";
 import Her from "@/components/Home/Her";
+import Hero from "@/components/Home/Hero";
 
 export default function Home() {
   return (
     <div className="w-full" >
     <Navbar />
-    <Her />
+   <Hero />
+
    <Ser />
     <Doctors />
 <ChooseUs />    

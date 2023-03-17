@@ -1,44 +1,52 @@
 import Image from "next/image";
 import Link from "next/link";
+import {IoCall} from 'react-icons/io5'
+import {RiMapPinLine} from 'react-icons/ri'
+
 import Dental from '../../public/dp.jpeg'
 const Hero = () => {
   return (
-    <section className="text-gray-600 body-font h-screen mb-20 md:mb-0">
-  <div className="container mx-auto flex px-5 md:py-24 py-12 md:flex-row flex-col items-center">
-    <div className="lg:flex-grow md:w-1/2   lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 className="title-font  text-center sm:text-4xl md:text-4xl md:pl-8  text-3xl mb-4 font-medium text-gray-900">
-        Welcome to 
-        <br className=" lg:inline-block" />
- <span className="md:text-6xl md:ml-24">
+    <div className="flex  px-6 md:px-20 h-screen items-center justify-center bg-hero  overflow-hidden">
+    <div className="flex flex-col  gap-6 md:flex-row items-center max-w-8xl">
+      <div className="w-full md:w-full lg:pr-32">
+        <h2 className="text-4xl lg:text-5xl xl:text-6xl text-center md:text-left text-blue-400 leading-tight font-medium">
+          Welcome To
+          <br />
+          <span className="text-red-600 text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
 
-        Shivam Dental Hospital
- </span>
-      </h1>
-      <p className="mb-16 text-4xl md:ml-16 font-semibold md:text-7xl tracking-normal md:my-4 text-centre leading-relaxed">
-      10 साल से आपकी सेवा में 
-      </p>
-      <div className="flex justify-center md:mt-16  md:ml-64  ">
-      <Link href="tel:9017842233">
-        <button className="inline-flex text-white bg-[#012A4A]  border-0 py-2 px-6 focus:outline-none hover:bg-blue-900 rounded text-lg">
-          Book an Appoinment 
-        </button>
-        </Link>
-        <Link href="https://goo.gl/maps/CVbGHTm1nRSfs6eo8">
-        <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-        Visit US!
-        </button>
-        </Link>
+          Shivam Dental Hospital
+          </span>
+        </h2>
+        
+        <h3 className="mt-6  md:mt-10 text-md lg:text-4xl text-center  text-gray-700 font-light tracking-wider leading-relaxed">
+        10 साल से आपकी सेवा में
+        </h3>
+        <div className="bg-white p-4 flex flex-row space-x-4 items-center justify-center">
+ 
+  <button className="inline-flex items-center   px-4 py-2 bg-red-600 hover:bg-red-700 text-white text-lg font-semibold rounded-md">
+    <IoCall size={25}/>
+<span className="ml-2">
+  
+  Book an Appoinment
+  </span>  
+
+  </button>
+  <button className="inline-flex items-center px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-white text-lg font-semibold rounded-md">
+    <RiMapPinLine size={25} />
+    <span className="ml-2">
+
+    Visit US!
+</span>
+  </button>
+</div>
+
+      </div>
+      <div className="w-full md:w-1/2 flex justify-center  md:justify-end">
+        <Image src={Dental} className='rounded-full w-48 h-48 xl:w-[36rem] lg:w-96 lg:h-96  md:w-60 md:h-60 xl:h-[36rem]'/>
       </div>
     </div>
-    <div className="lg:max-w-lg lg:w-full mx-auto md:w-1/2 w-5/6">
-      <Image
-        className="object-cover object-center w-72 h-72 md:w-96 md:h-96   md:ml-0 rounded-full"
-        alt="hero"
-        src={Dental}
-      />
-    </div>
   </div>
-</section>
+  
 
 
   );
