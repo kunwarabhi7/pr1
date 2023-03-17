@@ -4,6 +4,7 @@ import { FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
 import { BsTelephoneFill } from "react-icons/bs";
 import Dental from "../../public/dp.jpeg";
 import GS from "../../public/gs.jpeg";
+import KS from "../../public/ks.jpg";
 import Link from "next/link";
 const Doctors = () => {
   return (
@@ -98,9 +99,9 @@ const Doctors = () => {
 
         <div className="flex flex-col items-center shadow-[0px_0px_4px_2px_rgba(0,0,0,0.1)] h-[352px]">
           <div className="bg-white w-[111px] h-[111px] rotate-[45deg] rounded-[25px] flex items-center justify-center border-[2px] border-primary mt-[65px] overflow-hidden">
-            <img
+            <Image
               className="-rotate-[45deg] w-full h-full scale-125"
-              src="/img/doctors/happy-young-male-doctor-using-tablet-computer 1.png"
+              src={KS}
               alt="corona"
             />
           </div>

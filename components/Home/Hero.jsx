@@ -15,18 +15,18 @@ const [text,count] =  useTypewriter({
 })
   return (
     <div className="flex  px-6 md:px-20 h-screen items-center justify-center bg-hero  overflow-hidden">
-    <div className="flex flex-col  gap-6 md:flex-row items-center max-w-8xl">
+    <div className="flex flex-col  gap-6 md:flex-row items-center -mt-10  ">
       <div className="w-full md:w-full lg:pr-32">
         <h2 className="text-4xl lg:text-5xl xl:text-6xl text-center md:text-left text-blue-400 leading-tight font-medium">
           Welcome To
           <br />
-          <span className="text-red-600 text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
+          <span className="text-red-600 text-4xl md:text-5xl lg:text-6xl xl:text-6xl">
 
           Shivam Dental Hospital
           </span>
         </h2>
         
-        <h3 className="mt-6  md:mt-10 text-md lg:text-4xl text-center  text-blue-700 font-bold my-7 tracking-wider leading-relaxed">
+        <h3 className="mt-6  md:mt-10 text-md lg:text-5xl text-center  text-blue-700 font-bold my-7 tracking-wider leading-relaxed">
         {text}
         <Cursor cursorColor='red'/>
         </h3>
@@ -54,7 +54,7 @@ const [text,count] =  useTypewriter({
 
       </div>
       <div className="w-full md:w-1/2 flex justify-center  md:justify-end">
-        <Image src={Dental} className='rounded-full w-48 h-48  lg:w-96 lg:h-96  md:w-60 md:h-60 xl:w-[36rem] xl:h-[36rem]'/>
+        <Image src={Dental} className='rounded-full w-48 h-48  lg:w-96 lg:h-96  md:w-52 md:h-52 object-cover object-center  xl:w-[33rem] xl:h-w-[33rem]'/>
       </div>
     </div>
   </div>
