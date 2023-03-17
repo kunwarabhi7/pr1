@@ -2,9 +2,17 @@ import Image from "next/image";
 import Link from "next/link";
 import {IoCall} from 'react-icons/io5'
 import {RiMapPinLine} from 'react-icons/ri'
-
+import {Cursor,useTypewriter} from 'react-simple-typewriter'
 import Dental from '../../public/dp.jpeg'
+
 const Hero = () => {
+const [text,count] =  useTypewriter({
+  words:[
+    "भिवानी का नंबर 1 अस्पताल " ,
+    " 10 साल से आपकी सेवा में" , 
+    "25000 से ज़्यादा लोगो की पसंद "
+  ] , loop:true, delaySpeed:2000,
+})
   return (
     <div className="flex  px-6 md:px-20 h-screen items-center justify-center bg-hero  overflow-hidden">
     <div className="flex flex-col  gap-6 md:flex-row items-center max-w-8xl">
@@ -18,11 +26,12 @@ const Hero = () => {
           </span>
         </h2>
         
-        <h3 className="mt-6  md:mt-10 text-md lg:text-4xl text-center  text-gray-700 font-light tracking-wider leading-relaxed">
-        10 साल से आपकी सेवा में
+        <h3 className="mt-6  md:mt-10 text-md lg:text-4xl text-center  text-blue-700 font-bold my-7 tracking-wider leading-relaxed">
+        {text}
+        <Cursor cursorColor='red'/>
         </h3>
         <div className="bg-white p-4 flex flex-row space-x-4 items-center justify-center">
- 
+        <Link href="tel:9017842233">
   <button className="inline-flex items-center   px-4 py-2 bg-red-600 hover:bg-red-700 text-white text-lg font-semibold rounded-md">
     <IoCall size={25}/>
 <span className="ml-2">
@@ -31,6 +40,8 @@ const Hero = () => {
   </span>  
 
   </button>
+  </Link>
+  <Link href="https://goo.gl/maps/CVbGHTm1nRSfs6eo8">
   <button className="inline-flex items-center px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-white text-lg font-semibold rounded-md">
     <RiMapPinLine size={25} />
     <span className="ml-2">
@@ -38,6 +49,7 @@ const Hero = () => {
     Visit US!
 </span>
   </button>
+  </Link>
 </div>
 
       </div>
