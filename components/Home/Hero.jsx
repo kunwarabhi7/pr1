@@ -54,7 +54,7 @@ const [text,count] =  useTypewriter({
 
       </div>
       <div className="w-full md:w-1/2 flex justify-center  md:justify-end">
-        <Image src={Dental} className='rounded-full w-48 h-48 xl:w-[36rem] lg:w-96 lg:h-96  md:w-60 md:h-60 xl:h-[36rem]'/>
+        <Image src={Dental} className='rounded-full w-48 h-48  lg:w-96 lg:h-96  md:w-60 md:h-60 xl:w-[36rem] xl:h-[36rem]'/>
       </div>
     </div>
   </div>

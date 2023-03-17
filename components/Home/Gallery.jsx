@@ -15,7 +15,7 @@ import Image from "next/image";
 
 const Certi = () => {
   return (
-    <div className="h-[40rem]  ">
+    <div id="gallery" className="md:h-[40rem] h-80  ">
 
     <div className=" xl:my-4  bg-[rgb(227,230,230)] relative max-w-7xl  shadow-lg mx-auto">
          <Carousel autoPlay infiniteLoop showStatus={false} showIndicators={false} showThumbs={false}>
