@@ -24,7 +24,10 @@ const Doctors = () => {
                     <div className='flex items-center justify-center gap-4 mt-5'>
                         <span className='w-9 h-9 cursor-pointer text-lg duration-200 hover:text-[#00acee] hover:border-[#00acee] bg-white rounded-full border border-black flex items-center justify-center'><FaTwitter /></span>
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#4267B2] hover:border-[#4267B2] duration-200 rounded-full border border-black flex items-center justify-center'><FaFacebookF /></span>
+                        <a href="https://www.instagram.com/shivam_dental_hospital/">
+
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#F77737] hover:border-[#F77737] duration-200 rounded-full border border-black flex items-center justify-center'><FaInstagram /></span>
+                        </a>
                         <Link href="tel:9017842233">
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#57cf71] hover:border-[#57cf71] duration-200 rounded-full border border-black flex items-center justify-center'><BsTelephoneFill /></span>
                     </Link>
@@ -43,7 +46,10 @@ const Doctors = () => {
                     <div className='flex items-center justify-center gap-4 mt-5'>
                         <span className='w-9 h-9 cursor-pointer text-lg duration-200 hover:text-[#00acee] hover:border-[#00acee] bg-white rounded-full border border-black flex items-center justify-center'><FaTwitter /></span>
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#4267B2] hover:border-[#4267B2] duration-200 rounded-full border border-black flex items-center justify-center'><FaFacebookF /></span>
+                        <a href="https://www.instagram.com/shivam_dental_hospital/">
+
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#F77737] hover:border-[#F77737] duration-200 rounded-full border border-black flex items-center justify-center'><FaInstagram /></span>
+                        </a>
                         <Link href="tel:9017842233">
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#57cf71] hover:border-[#57cf71] duration-200 rounded-full border border-black flex items-center justify-center'><BsTelephoneFill /></span>
                     </Link>
@@ -61,7 +67,10 @@ const Doctors = () => {
                     <div className='flex items-center justify-center gap-4 mt-5'>
                         <span className='w-9 h-9 cursor-pointer text-lg duration-200 hover:text-[#00acee] hover:border-[#00acee] bg-white rounded-full border border-black flex items-center justify-center'><FaTwitter /></span>
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#4267B2] hover:border-[#4267B2] duration-200 rounded-full border border-black flex items-center justify-center'><FaFacebookF /></span>
-                        <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#F77737] hover:border-[#F77737] duration-200 rounded-full border border-black flex items-center justify-center'><FaInstagram /></span>
+                        <a href="https://www.instagram.com/shivam_dental_hospital/">
+                         
+                            <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#F77737] hover:border-[#F77737] duration-200 rounded-full border border-black flex items-center justify-center'><FaInstagram /></span>
+                            </a>
                         <Link href="tel:9017842233">
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#57cf71] hover:border-[#57cf71] duration-200 rounded-full border border-black flex items-center justify-center'><BsTelephoneFill /></span>
                     </Link>  </div>
@@ -78,7 +87,9 @@ const Doctors = () => {
                     <div className='flex items-center justify-center gap-4 mt-5'>
                         <span className='w-9 h-9 cursor-pointer text-lg duration-200 hover:text-[#00acee] hover:border-[#00acee] bg-white rounded-full border border-black flex items-center justify-center'><FaTwitter /></span>
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#4267B2] hover:border-[#4267B2] duration-200 rounded-full border border-black flex items-center justify-center'><FaFacebookF /></span>
-                        <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#F77737] hover:border-[#F77737] duration-200 rounded-full border border-black flex items-center justify-center'><FaInstagram /></span>
+                        <a href="https://www.instagram.com/shivam_dental_hospital/">
+<span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#F77737] hover:border-[#F77737] duration-200 rounded-full border border-black flex items-center justify-center'><FaInstagram /></span>
+                        </a>
                         <Link href="tel:9017842233">
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#57cf71] hover:border-[#57cf71] duration-200 rounded-full border border-black flex items-center justify-center'><BsTelephoneFill /></span>
                     </Link> </div>
@@ -95,7 +106,9 @@ const Doctors = () => {
                     <div className='flex items-center justify-center gap-4 mt-5'>
                         <span className='w-9 h-9 cursor-pointer text-lg duration-200 hover:text-[#00acee] hover:border-[#00acee] bg-white rounded-full border border-black flex items-center justify-center'><FaTwitter /></span>
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#4267B2] hover:border-[#4267B2] duration-200 rounded-full border border-black flex items-center justify-center'><FaFacebookF /></span>
+                        <a href="https://www.instagram.com/shivam_dental_hospital/">
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#F77737] hover:border-[#F77737] duration-200 rounded-full border border-black flex items-center justify-center'><FaInstagram /></span>
+                       </a>
                         <Link href="tel:9017842233">
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#57cf71] hover:border-[#57cf71] duration-200 rounded-full border border-black flex items-center justify-center'><BsTelephoneFill /></span>
                     </Link> </div>
@@ -112,7 +125,9 @@ const Doctors = () => {
                     <div className='flex items-center justify-center gap-4 mt-5'>
                         <span className='w-9 h-9 cursor-pointer text-lg duration-200 hover:text-[#00acee] hover:border-[#00acee] bg-white rounded-full border border-black flex items-center justify-center'><FaTwitter /></span>
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#4267B2] hover:border-[#4267B2] duration-200 rounded-full border border-black flex items-center justify-center'><FaFacebookF /></span>
+                        <a href="https://www.instagram.com/shivam_dental_hospital/">
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#F77737] hover:border-[#F77737] duration-200 rounded-full border border-black flex items-center justify-center'><FaInstagram /></span>
+                        </a>
                         <Link href="tel:7082932230">
                         <span className='w-9 h-9 cursor-pointer text-lg bg-white hover:text-[#57cf71] hover:border-[#57cf71] duration-200 rounded-full border border-black flex items-center justify-center'><BsTelephoneFill /></span>
                     </Link> </div>
